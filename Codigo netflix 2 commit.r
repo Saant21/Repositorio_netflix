@@ -4,7 +4,6 @@ library(lubridate)
 # Carregar dados
 netflix <- read_csv("netflix_titles.csv")
 
-
 # Filtrar apenas filmes
 filmes <- netflix %>%
   filter(type == "Movie", !is.na(listed_in))
