@@ -28,4 +28,3 @@ ggplot(por_tipo_ano, aes(x = year_added, y = qtd, color = type)) +
     color = "Tipo"
   ) +
   theme_minimal()
-
